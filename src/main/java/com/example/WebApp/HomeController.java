@@ -9,12 +9,12 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public @ResponseBody String greeting() {
-		return "Hello, World!";
+		return "Hello, Worldd!";
 	}
 
 	
 	@RequestMapping("/rodrigo")
 	public @ResponseBody String greetingRodrigo() {
-		return "Hello, Rodrigo!";
+		return "Hello, Rodrigod!";
 	}
 }
